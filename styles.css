@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+p, ul, ol {
+    color: #555;
+}
+
+ul, ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cta-buttons, .case, .testimonial, .faq-item {
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px 5px;
+    background-color: #007BFF;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 5px 0;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p, .social-links a {
+    color: #333;
+}
+
+.social-links a {
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
